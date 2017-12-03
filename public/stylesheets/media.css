@@ -1,0 +1,193 @@
+
+@media(max-width:1800px){
+	header .navbar .container-fluid,header .navbar{padding: 0;}
+}
+@media(max-width:1600px){
+	header .navbar-nav li a{padding: 22px 15px;}
+}
+@media(max-width:1370px){
+	.compareboxproto h2{font-size: 18px;}
+	.bannerTxt{padding:12% 0 0 0;}
+	.search{padding-top: 1%;padding-bottom: 13%;}
+	.search .search_section{padding-bottom: 13px;}
+	.search .search_section .imgB{width: 60px;height: 60px;}
+	.search .search_section .imgB img{margin: 15px 0px 0 14px;width: 30px;}
+	.btm_section h2{margin:0;font-size: 40px;padding-top: 80px;}
+	.topBanner{height: 90vh;}
+	/*.content.custom-height{height: 600px;}*/
+	.btm_section p{padding-top: 10px;}
+}
+@media(max-width:1200px){
+	.compareboxproto p{font-size: 36px;}
+	.compare_box .col-md-2.hidden-sm,.compareGridView .col-md-2{display: none}
+	.compare_box .col-md-10,.compareGridView .col-md-10{width:100%;}
+	.compareGridList h2{font-size: 20px;}
+	.compareGridView,.compare_box{padding-left: 20px;}
+	.myComparision .col-md-9{padding: 55px 0 60px 0;}
+	.compareBox p.price{font-size: 40px;}
+	.content.custom-height{height: 500px;}
+	.myComparision{bottom: -320px;}
+	.myComparision.btm-sec{bottom: -240px;}
+
+}
+@media(max-width:1100px){
+	header .navbar-nav li a{padding: 22px 10px;}
+	.logo img{width:250px;}
+	.logo{margin: 10px 0 !important;}
+	.sectionList,p#dl-value{float: left;}
+	.range_value{float: left;padding-top: 15px;}
+	p#dl-value,p#dl-value:first-child{margin: 0;width: 85px;}
+}
+@media(max-width:1024px){
+	.compareboxproto{padding: 42px 20px 30px 20px;}
+	.inpt_btn{margin-bottom: 10%;}
+	footer{position: relative;}
+	.mCSB_inside > .mCSB_container{margin-right: 20px !important;}
+	header.stickyHeader .navbar-nav li a, .fp-viewing-1 header .navbar-nav li a{padding: 23px 14px;}
+	.myComparision.btm-sec{bottom: -260px;}
+}
+@media (max-width:991px){
+	/*.container{width: 100%;}*/
+	.navbar-toggle{display: block;}
+	#myNavbarDiv ul{border-top: 0px;box-shadow: inset 5px 6px 5px rgba(198, 187, 187, 0.1);}
+	#myNavbarDiv ul{position: absolute;width: 200px;background: #006046;right: 25px;top: 60px;padding: 0;}
+	#myNavbarDiv ul{opacity:0;height:auto !important;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;  -o-transition: all 0.5s ease;transition: all 0.5s ease;transform: translateX(230px);
+-webkit-transform: translateX(230px);-moz-transform: translateX(230px);-ms-transform: translateX(230px);-o-transform: translateX(230px);}
+	#myNavbarDiv ul.active{opacity:1;display:block !important;z-index: 999;transform: translateX(0px);
+-webkit-transform: translateX(0px);-moz-transform: translateX(0px);-ms-transform: translateX(0px);-o-transform: translateX(0px);}
+	.navbar-default{border-color: transparent;}
+	.st-navbar-mini .navbar-default{border-color: #a27e3b;}
+	.navbar-nav{margin:0;}
+	.navbar-nav>li{float: left;width: 100%;}
+	.navbar-nav>li>a{padding-top: 10px;padding-bottom: 10px;}
+	.navbar-text{float: none;margin: 15px 0;}
+	.navbar-toggle{background: transparent;position: absolute;top: 0;top: 10px;right: 0;}
+	.navbar-toggle .icon-bar{background: #fff;}
+	header .navbar-nav li a{padding: 8px 10px;border-bottom: 1px solid #1c7b61;font-weight: 400;}
+	header .navbar-nav li a:hover{color:#fff;background: #04dca0;}
+	.bannerTxt{width: 100%;}
+	.fliterListSection .leftFilterSection{max-width: 100%;}
+	.slider-handle{top: -2px !important;}
+	.sectionList h4{width:100%;float:left;display: block;}
+	.sectionList h4::after{content: '';top: 8px;right: 10px;position: absolute;background: url('../images/changeIcon.png') no-repeat center -21px;width: 30px;height: 30px;}
+	.show_wrap{width: 100%;float: left;display: none;}
+	.sectionList{position: relative;}
+	.fliterListSection .leftFilterSection .sectionList h4.active::after{background: url('../images/changeIcon.png') no-repeat center 9px;}
+	.sectionList{padding: 10px 0;}
+	.compare_box{padding: 47px 0 42px 0;}
+	.compareGridView{padding-left: 0;}
+	.myComparision .col-md-9{padding: 55px 0 0 0;}
+	.compare_now{margin: 5% auto;display: block;}
+	.content.custom-height{height: auto;z-index: 99999 !important;padding-top: 0px;}
+	.myComparision{bottom:10px;}
+	.content{height: 100%;}
+	#mCSB_2_dragger_vertical{height: 200px !important;}
+	.myComparision.active{bottom:340px;}
+	.myComparision .col-md-9,.top-btn-space{padding: 0px 0 0 0;}
+	header.stickyHeader .navbar-nav li a, .fp-viewing-1 header .navbar-nav li a{padding: 8px 14px;}
+}
+@media (max-width:767px){
+	.prd_range{padding: 16% 0 20% 0;}
+	.compareboxproto{display: block;margin: 15px auto;}
+	.compareGridList h2,.compareGridList p,.compareGridList ul,.compareGridList h4{text-align: center}
+	.compareGridList .col-md-3{padding-top: 0;}
+	.compareGridList .brdr{border:0px;padding-top: 20px;}
+	.compareGridList p.more a{vertical-align: top;}
+	.compare_btn{margin: 25px auto 0 auto;}
+	.top-btn-space{padding-top: 10px;margin-left: 35%;padding-bottom:15px;}
+	.search .search_section .imgB{width: 65px;height: 65px;}
+	.search .search_section .imgB img{width: 30px;margin: 20px 19px 0 19px;}
+	.myComparision{position: fixed;bottom: -280px;}
+	.myComparision.active{bottom: 0;}
+	.top-btn-space{margin: 0 auto;display: block;width: 100%;}
+	.myComparision.btm-sec{bottom: -290px;}
+}
+@media(max-width:640px){
+	.topBanner h2{font-size: 30px;margin-top: 0;}
+	.prd_range{padding: 0% 0 20px 0;}
+	.btm_section h2{font-size: 35px;padding-top: 80px;}
+	.btm_section p{ font-size: 15px;}
+	.myComparision.active{bottom: 0;height: 160px;overflow: auto;}
+	.btm-circle{top:10px;}
+
+}
+@media(max-width:550px){
+	.compare_box .col-md-4.col-sm-4.col-xs-6,.myComparision .col-md-4.col-sm-4.col-xs-6{width: 100%;}
+	.compareboxproto{max-width: 100%;}
+}
+@media (max-width:480px){
+	.logo img{width: 180px;}
+	.navbar-toggle{top: 0px;}
+	#myNavbarDiv ul{top: 40px;}
+	.bannerTxt{padding:30% 0;}
+	.topBanner h2{line-height: 35px;font-size: 40px;}
+	.btm_section h2{font-size: 38px;}
+	.prd_range{width: 85%;padding: 18% 0 6% 10%;}
+	.slider.slider-horizontal .slider-handle{margin-left: -25px !important;}
+	.slider .tooltip.top{margin-left:-32px !important;}
+	.rangeSlider{width: 90%;padding-left: 5%;}
+	.slider.slider-horizontal .slider-handle{margin-left: -13px !important;}
+	.compareGridList ul li{font-size: 14px;}
+	.topBanner h2{line-height: 35px;font-size: 27px;}
+	.topBanner p{font-size: 15px; line-height: 25px;padding: 0;}
+	.compare_box{padding: 25px 0;}
+	.navbar-header{margin: 0 !important;}
+	.navbar-brand{height: 30px;}
+	#mCSB_2_dragger_vertical{height: 150px !important;}
+	.myComparision{bottom: 0;height: 70px;overflow: auto;}
+	.myComparision h3{visibility: visible !important;padding-top:20px;}
+	footer .social-icons ul{padding: 15px 0 4px 0;}
+	footer p{margin: 0;}
+	footer .social-icons ul li{width: 35px;height: 35px;}
+	footer .social-icons ul li a i{display: block;margin: 10px auto;font-size: 13px;}
+	footer .social-icons{float: none !important;display: block;text-align: center;}
+	.myComparision .col-md-9{padding: 20px 0 0 0;}
+	.myComparision.active{bottom: 0;overflow: auto;height: 300px;}
+	/*.myComparision{position: relative;}*/
+	.btm_section h2{padding-top: 60px;}
+	.inpt_btn{margin-bottom: 0;margin-top: 5%;}
+	/*.content{padding-bottom: 50px;}*/
+	.compareGridView{padding-bottom: 50px;}
+	.btm-circle{top: 0px;right: 30px;}
+	footer.inner{position:relative;}
+	header.stickyHeader .logo img, .fp-viewing-1 header .logo img{width: 200px;}
+    .inpt_btn button.cmper_brlyz{line-height: 60px;padding: 0 25px;font-size: 17px;}
+    footer .social-icons ul li:nth-child(3) a i{margin-left: 4px;}
+    .content.custom-height{padding-top: 10px;}
+    .compareGridList ul li{width: auto;}
+    .myComparision.btm-sec{bottom: 70px;}
+}
+@media(max-width:400px){
+	.search.pull-left .search_section{padding-bottom: 10px;}
+	.btm_section h2{font-size: 25px;}
+	.btm_section p{padding-top: 10px;font-size: 15px;line-height: 20px;}
+	.search .search_section .imgB{width: 35px;height: 35px;}
+	.search .search_section .imgB img{width: 20px;margin: 9px 9px 0 7px;}
+	.search.pull-left .search_section{padding-left: 5px;padding-right: 5px;}
+	.search .search_section h3{font-size: 16px;padding-top: 10px;}
+	.search .search_section p{font-size: 10px;padding-top: 0px;}
+}
+/*@media(max-width:360px){
+	.topBanner h2{line-height: 35px;font-size: 27px;}
+}*/
+@media all and (orientation:landscape) {
+	@media (max-width:700px){
+		.myComparision{bottom: -360px;}
+   		.myComparision.active{height: 200px;overflow: auto;}
+   		.btm-circle{top:10px;}
+   		.myComparision.btm-sec{bottom: -270px;}
+   		.myComparision.active.btm-sec{bottom: 50px;overflow: auto;}
+	}
+   @media (max-width:640px){
+   		.logo{margin: 10px !important;}
+   		.myComparision{bottom: -360px;}
+   		.myComparision.active{height: 200px;}
+   		.myComparision.btm-sec{bottom: -270px;}
+   		.myComparision.active.btm-sec{bottom: 50px;}
+   }
+   @media (max-width:480px){
+   		.myComparision.active{bottom: 0;overflow: auto;height: 200px;}
+   		.myComparision.active.btm-sec{bottom: 50px;}
+
+   }
+}

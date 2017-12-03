@@ -1,0 +1,8 @@
+{
+  "name": "Applying Agile Ltd",
+  "description": "Applying Agile Ltd",
+  "repository": "",
+  "logo": "",
+  "keywords": ["applying agile", "devops", "continuous integration", "continuous delivery", "Single Sign On"],
+  "image": "heroku/nodejs"
+}
