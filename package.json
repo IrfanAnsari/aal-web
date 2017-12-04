@@ -1,13 +1,13 @@
 {
-  "name": "node-js-getting-started",
+  "name": "aal-web",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "Applying agile Node.js app using Express 4",
   "engines": {
     "node": "8.9.1"
   },
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "node test.js"
   },
   "dependencies": {
@@ -20,12 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/IrfanAnsari/aal-web.git"
   },
   "keywords": [
     "node",
-    "heroku",
-    "express"
+    "applying agile ltd",
+    "express",
+    "heroku"
   ],
   "license": "MIT"
 }

@@ -1,57 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<title></title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
-	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/media.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-slider.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="stylesheets/jquery.mCustomScrollbar.css">
-</head>
+<% include ../partials/header.ejs %>
 <body>
 <div class="wrap">
 <header class="inner">
-	<nav class="navbar col-md-12 col-sm-12 col-xs-12  wow fadeInUp">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>                        
-	      </button>
-	      <a href="index.ejs" class="navbar-brand logo">
-			<img src="images/logo.png">
-		  </a>
-	    </div>
-	    <div id="myNavbarDiv">
-	      <ul class="nav navbar-nav pull-right">
-	        <li><a href="javascript:void(0)">about</a></li>
-	        <li><a href="javascript:void(0)">umbrella </a></li>
-	        <li><a href="javascript:void(0)">jargon buster</a></li>
-	        <li><a href="javascript:void(0)">our team  </a></li>
-	        <li><a href="javascript:void(0)">contact us</a></li>
-	        <li><a href="javascript:void(0)">blogs </a></li>
-	        <li><a href="javascript:void(0)">login</a></li>
-	      </ul>
-	    </div>
-	  </div>
-</nav>
+    <% include ../partials/nav.ejs %>
 </header>	
 <div class="listingPage pull-left">
 	<div class="container-fluid">
 		<div class="col-md-3 fliterListSection">
 			<div class="leftFilterSection pull-right content custom-height mCustomScrollbar">
-			<div class="sectionList">
+                <div class="sectionList"/>
+			<!--<div class="sectionList">
 				<h3>Filter Your Search</h3>
 				<p><a href="javascript:void(0)">Reset All</a></p>
-			</div>
-			<div class="sectionList">
+			</div>-->
+			<!--<div class="sectionList">
 				<h4>Search by Hourly Rate</h4>
 				<div class="show_wrap">
 				<div class="rangeSlider">
@@ -63,8 +27,8 @@
 				<p id="dl-value" class="pull-right">$<span id="ex2SliderVal1"></span></p>
 			</div>
 			</div>
-			</div>
-			<div class="sectionList">
+			</div>-->
+			<!--<div class="sectionList">
 				<h4>Compare Facilities</h4>
 				<div class="show_wrap">
 				<div class="leftPriceDiv">
@@ -97,9 +61,9 @@
                 </div>
                 <label for="price5">Business Facilities</label>
        			</div>
-       		</div>
-			</div>
-			<div class="sectionList">
+       		</div> -->
+			<!--</div>-->
+			<!--<div class="sectionList">
 				<h4>Compare Location</h4>
 				<div class="show_wrap">
 				<div class="leftPriceDiv">
@@ -132,7 +96,7 @@
                 </div>
                 <label for="lctn5">Grace Bay</label>
        			</div>
-       		</div>
+       		</div>-->
 			</div>
 			</div>
 		</div>
@@ -141,31 +105,33 @@
 			<div class="col-md-10 col-sm-12">
 				<div class="col-md-4 col-sm-4 col-xs-6 ">
 				<div class="compareboxproto">
-					<h2 class="text-center wow fadeInUp">Andrew’s Agency</h2>
+                    <embed src="images/ali_bio.pdf" width="640" height="480"/>
+					<!--<h2 class="text-center wow fadeInUp">Andrew’s Agency</h2>
 					<p class="text-center wow fadeInUp">$284</p>
-					<button type="button" class="compare_btn">Compare</button>
+					<button type="button" class="compare_btn">Compare</button>-->
 				</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-6">
+				<div class="compareboxproto">
+                    <embed src="images/ali_bio.pdf" width="640" height="480"/>
+					<!--<h2 class="text-center wow fadeInUp">Andrew’s Agency</h2>
+					<p class="text-center wow fadeInUp">$284</p>
+					<button type="button" class="compare_btn">Compare</button>-->
+
+				</div>
+				</div>
+				<!--<div class="col-md-4 col-sm-4 col-xs-6">
 				<div class="compareboxproto">
 					<h2 class="text-center wow fadeInUp">Andrew’s Agency</h2>
 					<p class="text-center wow fadeInUp">$284</p>
 					<button type="button" class="compare_btn">Compare</button>
 
 				</div>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-6">
-				<div class="compareboxproto">
-					<h2 class="text-center wow fadeInUp">Andrew’s Agency</h2>
-					<p class="text-center wow fadeInUp">$284</p>
-					<button type="button" class="compare_btn">Compare</button>
-
-				</div>
-				</div>
+				</div>-->
 				</div>
 			<div class="col-md-2 hidden-sm"></div>
 			</div>
-			<div class="compareGridView pull-left">
+			<!--<div class="compareGridView pull-left">
 				<div class="col-md-10 col-sm-12 content mCustomScrollbar">
 					<div class="col-md-12">
 						<div class="compareGridList pull-left">
@@ -243,11 +209,11 @@
 					</div>
 				</div>
 				<div class="col-md-2"></div>
-			</div>
+			</div>-->
 		</div>
 	</div>	
 </div>
-<div class="myComparision pull-left">
+<!--<div class="myComparision pull-left">
   <div class="btm-circle"><div class="btm-arrow"></div></div>
 	<div class="container">
 		<h3 class="text-center wow fadeInUp">My Comparison</h3>
@@ -281,7 +247,8 @@
 			<button type="button" class="compare_now d-block">Compare Now</button>
 		</div>
 	</div>
-</div>
+</div>-->
+
 <footer class="pull-left inner">
 	<div class="container">
 		<div class="social-icons pull-left">
